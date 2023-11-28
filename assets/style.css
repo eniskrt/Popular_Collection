@@ -1,0 +1,67 @@
+body{
+    background-color: #D8DAE2;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    margin-top: 100px;
+}
+/* @media(max-width:768px){
+    body{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        height: 100%;
+    }
+} */
+.container:after{
+    content: "";
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #E5E7F0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    transform: translate(50%,-40%);
+    -webkit-transform: translate(50%,-40%);
+    -moz-transform: translate(50%,-40%);
+    -ms-transform: translate(50%,-40%);
+    -o-transform: translate(50%,-40%);
+}
+.container:before{
+    content: "";
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #E5E7F0;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    transform: translate(400%,-60%);
+    -webkit-transform: translate(400%,-60%);
+    -moz-transform: translate(400%,-60%);
+    -ms-transform: translate(400%,-60%);
+    -o-transform: translate(400%,-60%);
+}
+@media(max-width:1200px){
+    .container:after{
+        display: none;
+    }
+    .container:before{
+        display: none;
+    }
+}
