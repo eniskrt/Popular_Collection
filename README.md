@@ -7,6 +7,6 @@
 # Desktop design
 ![image](https://github.com/eniskrt/Popular_Collection/assets/141591900/6b469aaa-3245-4718-a0aa-10424c18b29a)
 
-# Respomsive design
+# Responsive design
 ![image](https://github.com/eniskrt/Popular_Collection/assets/141591900/10b8adb7-6faa-4191-9b74-d1dd8a980226)
 
